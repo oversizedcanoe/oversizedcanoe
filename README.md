@@ -12,3 +12,5 @@ Some projects/things on my todo list:
   - I'd like to take a look at web sockets, to make "rooms"
 - I'd like to try out unit testing frameworks as well as speed-testing frameworks--potentially the CSV-to-Model tool would be a good use for this
 - I have a Raspberry Pi 4 sitting collecting dust, so using that for some sort of physical motion (some sort of car, robot, etc)
+- A (Python?) script which tracks new devices on my home Wi-Fi. It would send an email notifying me of new devices, and store their IP, device name, total connections, and last connected date in a database. When a new device connects, I could reply to the email with who it is (if I know).
+  - Is it possible to force devices on your network to use a static IP?
