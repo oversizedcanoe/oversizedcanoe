@@ -1,5 +1,4 @@
 ### Hey, I'm oversizedcanoe.
-I'm a Canadian software developer. 
 
 --- 
 
