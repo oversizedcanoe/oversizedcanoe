@@ -16,36 +16,22 @@ This is my personal Github account which I use for personal websites, web applic
 
 ---
 
-A few repos I am proud of:
+I build tools and web apps to solve problems in my life. A few repos I am proud of:
 
 #### [view3c](https://github.com/oversizedcanoe/view3c) 
 - View W3C logs in your browser. W3C format is supported by Azure App Services, IIS, and many other Web API hosting providers.
 - Built with Angular and Apache ECharts.
+- I built this after scrolling through dozens of W3C log files at work, looking for problematic endpoints etc. With this tool, I can drag and drop log files and instantly get simple to understand metrics of how an application is behaving. 
 - [Github Pages link](https://oversizedcanoe.github.io/view3c/)
 
 #### [FMZ Scraper](https://github.com/oversizedcanoe/fmz_scraper)
-- View and filter the Ontario Fishery Management Zones fish seasons. Filter by zone and/or what's in season.
+- View and filter the Ontario Fishery Management Zones (FMZ) fish seasons. Filter by zone and/or what's in season.
 - Web scraper built with Python. Web UI built with React.
-- A tool and website built with Python and React to scrape and format the Ontario Fishery Management Zones fishing seasons.
+- A tool and website built with Python and React to scrape and format the Ontario FMZ's fishing seasons.
+- I built this because the FMZ website is hard to quickly skim and understand. Dates are in multiple styles, i.e. (June 10, 3rd Saturday in May, Friday before the 2nd Saturday in April). This web app formats these dates into consistent readable versions, and allows for filtering based on what's in season.
 - [Github Pages link](https://oversizedcanoe.github.io/fmz-scraper/)
 
-#### [Network Monitor](https://github.com/oversizedcanoe/NetworkMonitor)
-- Monitor your local Wi-Fi network for newly connected devices. `nmap` is used to query the network.
-- Configure emails to be sent when certain devices + unknown devices connect to the network. 
-- The network service and API is built with Python. Web UI built with React. Data stored in a local SQLite DB.
-
-#### [SmartHome](https://github.com/oversizedcanoe/SmartHome)
-- I made this C# (Blazor) application to control smart bulbs in my house. I wanted to sync a few lights together and create a "lavalamp" effect.
-
-#### [TurnTable](https://github.com/oversizedcanoe/TurnTable)
-- Play single player and multiplayer, offline and online games.
-- Backend built with C#. Web UI built with Angular. SignalR is used for realtime multiplayer.
-- This repo may go private at one point. I am still somewhat working on it on the side. Eventually I hope to deploy it for public use.
-
-#### [pi-monitor](https://github.com/oversizedcanoe/pi-monitor)
-- A Go script to monitor and track various metrics on a Raspberry Pi (really any OS/PC, but I built it for my RPi)
-- Track metrics such as Disk Usage, Uptime, Temperature. Configure emails to be sent out when threshholds are reached.
-
-#### [simple_background_remover](https://github.com/oversizedcanoe/simple_background_remover)
-- Remove (solid color) backgrounds from images with Python
-- Available on pip: `python -m pip install simple_background_remover`
+#### [opl-scraper](https://github.com/oversizedcanoe/opl-scraper)
+- Scrapes the Ottawa Public Library website for books you have on hold, checked out, ready for pickup, and due. Sends resulting data to a configurable MQTT endpoint.
+- Built with Python.
+- I built this so I could get book data for my wife and I into Home Assistant. Whenever a book is ready for pick up, we get mobile/Alexa notifications, and I can see when things are due in Home Assistant, without having to log into each of our accounts. It has saved me dollars (!!!) in re-stocking fees.
